@@ -38,7 +38,7 @@ This project involves building an interactive dashboard to explore the Belly But
    ```bash
    git clone <rhttps://github.com/geraldine1456/belly-button-challenge.git>
 
-2. Copy the `index.html` path in a browser to view the dashboard.
+2. Open the  `index.html` file in a browser to view the dashboard.
 
 
 ![Sample Output](sample_html.png)
