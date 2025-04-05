@@ -1,4 +1,6 @@
-# Belly-Button-Challenge - Belly Button Biodiversity Dashboard
+# Belly-Button-Challenge 
+
+# Belly Button Biodiversity Dashboard
 
 ## Overview
 This project involves building an interactive dashboard to explore the Belly Button Biodiversity dataset. The dataset catalogs the microbes that colonize human navels, revealing that a small handful of microbial species were present in more than 70% of people, while the rest were relatively rare.
