@@ -42,7 +42,6 @@ function buildCharts(sample) {
     let otu_labels = filteredSample.otu_labels;
     let sample_values = filteredSample.sample_values;
 
-
     // Build a Bubble Chart
     let bubbleTrace = {
       x: otu_ids,
@@ -56,7 +55,6 @@ function buildCharts(sample) {
       }
     };
 
-
     // Render the Bubble Chart
     let bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
@@ -67,11 +65,11 @@ function buildCharts(sample) {
     
     Plotly.newPlot("bubble", [bubbleTrace], bubbleLayout);
     
-    // For the Bar Chart, map the otu_ids to a list of strings for your yticks
+    // For the Bar Chart, map the otu_ids to a list of strings for yticks
     let yticks = otu_ids.slice(0, 10).map(id => `OTU ${id}`).reverse();
    
     // Build a Bar Chart
-    // Don't forget to slice and reverse the input data appropriately
+    // slice and reverse the input data appropriately
   
     let barTrace = {
       x: sample_values.slice(0, 10).reverse(),
@@ -81,7 +79,6 @@ function buildCharts(sample) {
       orientation: "h"
     };
 
-  
     // Render the Bar Chart
     let barLayout = {
       title: "Top 10 Bacteria Cultures Found",
@@ -112,11 +109,9 @@ function init() {
       dropdown.append("option").text(name).property("value", name);
     });
 
-
     // Get the first sample from the list
     let firstSample = sampleNames[0];
     console.log("First Sample:", firstSample);
-
 
     // Build charts and metadata panel with the first sample
     buildMetadata(firstSample);
