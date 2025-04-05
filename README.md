@@ -36,7 +36,7 @@ This project involves building an interactive dashboard to explore the Belly But
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone <rhttps://github.com/geraldine1456/belly-button-challenge.git>
+   git clone <https://github.com/geraldine1456/belly-button-challenge.git>
 
 2. Open the  `index.html` file in a browser to view the dashboard.
 
